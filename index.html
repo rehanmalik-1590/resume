@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Games World</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+  body {
+    background-image: url('Images/background_final.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        h1 {
+            display: inline-block;
+            text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.7); 
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            border-radius: 20%;
+            position: relative;
+            text-align: left;
+            margin-left: 2%;
+        }
+    
+        /* Gradient line under h1 */
+        h1::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 5px; /* Thickness of the line */
+            margin-top: 5px; /* Space between text and line */
+            background: linear-gradient(90deg, rgba(255, 0, 0, 0.7), rgba(0, 255, 0, 0.7), rgba(0, 0, 255, 0.7)); /* Gradient colors */
+            border-radius: 10px; /* Optional: Rounded corners */
+        }
+
+        /* ................................Lines....................................................... */
+        /* .three-lines {
+        width: 80%; 
+        margin: 0 auto; 
+        text-align: justify;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        line-height: 2.5;
+        height: 5.5em;
+        overflow: hidden;
+        font-size: 150%;
+        color: whitesmoke;
+    }
+    @media (max-width: 768px) {
+        .container_2 h1 {
+            margin-left: 0;
+            text-align: center;
+            width: 100%;
+        }
+        .three-lines {
+            text-align: left;
+            padding: 5px;
+        }
+    }
+    @media (max-width: 576px) {
+          .three-lines {
+            width: 100%;
+            margin-left: 0;
+            text-align: left;
+        }
+    }  */
+
+        /* .......................................Cards................................................. */
+
+          /* Style for all cards */
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+        background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+        border: 1px solid rgba(0, 0, 0, 0.1); /* Light border for better visibility */
+        border-radius: 10px; /* Rounded corners */
+    }
+
+    /* Hover effect for cards */
+    .card:hover {
+        transform: scale(1.05); /* Scale up the card */
+        z-index: 10; /* Bring the card to the front */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+    }
+
+    /* Optional: Padding and margin adjustments */
+    .card-body {
+        padding: 15px;
+    }
+
+    .btn-primary {
+        margin-top: auto; /* Push button to the bottom of the card body */
+    }
+
+    /* Ensure responsiveness */
+    @media (max-width: 768px) {
+        .card {
+            margin-bottom: 1rem; /* Add margin at the bottom for small screens */
+        }
+    }
+
+    @media (max-width: 576px) {
+        .card {
+            margin-bottom: 0.5rem; /* Reduce bottom margin for very small screens */
+        }
+    }
+    </style>
+    
+</head>
+<body>
+
+    <!-- ...................................Name.................................. -->
+    <div class="container my-4 text-center">
+        <h1>Rehan Malik</h1>
+
+     <!-- <p class="three-lines">Enthusiastic and innovative, I am Rehan Malik, a seasoned Game Developer and Designer with 1.5 years of dedicated experience in the field. My journey into the world of game development began with a deep-rooted passion for creating immersive and engaging experiences that captivate audiences.</p>
+
+     <p class="three-lines">Over the past 1.5 years, I have honed my skills in crafting exceptional software using Unity, whether it be captivating games or innovative applications. My forte lies in
+      developing consumer-facing projects that are not only visually stunning but also content-driven, ensuring an unforgettable user experience.
+      </p> -->
+    </div>
+
+    <!-- ................................Card_1..................................................... -->
+
+    <div class="container my-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/bg_1.jpg" class="card-img-top" alt="Image 1">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Extreme Cargo Jeep Driving 3D</h5>
+              <a href="https://play.google.com/store/apps/details?id=com.rn.simulation.offroad.jeep.driving.game&hl=en" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/bg_2.jpg" class="card-img-top" alt="Image 2">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Police Car Game Cop Games 3D</h5>
+              <a href="https://play.google.com/store/apps/details?id=com.BitSolution.PoliceCarCopSimulatorGame" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/bg_3.jpg" class="card-img-top" alt="Image 3">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Indian Tractor Game Farming 3D</h5>
+              <a href="https://play.google.com/store/apps/details?id=com.bts.real.tractor.farming" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ..................................................................................................... -->
+
+     <!-- ................................Card_2..................................................... -->
+
+     <div class="container my-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/bg_4.jpg" class="card-img-top" alt="Image 1">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">US Bus Simulator Driving Games</h5>
+                <a href="https://play.google.com/store/apps/details?id=com.bt.modernbus.simulator.busdriving" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/bg_5.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Farming Games 3d-Tractor Games</h5>
+                <a href="https://play.google.com/store/apps/details?id=com.mj.real.farmertractor.driving.simulator.game" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+  
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/bg_6.jpg" class="card-img-top" alt="Image 3">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">luxury Bus Driving : Bus Games</h5>
+                <a href="https://play.google.com/store/apps/details?id=com.mj.luxury.bus.game.com" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- ..................................................................................................... -->
+
+       <!-- ................................Card_3..................................................... -->
+
+    <div class="container my-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/bg_7.jpg" class="card-img-top" alt="Image 1">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Offroad Jeep Driving Master</h5>
+                <a href="https://play.google.com/store/apps/details?id=com.tgs.offroad.jeep.driving.master" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/bg_8.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">US Cargo Truck: Truck Game</h5>
+                <a href="https://play.google.com/store/apps/details?id=com.tgs.euro.truck.cargo.driving.game&hl=en" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+  
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Images/bg_9.jpg" class="card-img-top" alt="Image 3">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Police Car simulator Cop Games</h5>
+                <a href="https://play.google.com/store/apps/details?id=com.policecarsimulaator.cop.games&hl=en" class="btn btn-primary mt-auto" target="_blank">Go to Link</a>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- ..................................................................................................... -->
+</body>
+</html>
